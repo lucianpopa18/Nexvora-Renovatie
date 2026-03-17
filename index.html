@@ -3,6 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Nexvora Renovatie verzorgt hoogwaardige renovaties, badkamers, keukens, vloeren en totaalprojecten in Nederland." />
   <title>Nexvora Renovatie | Premium renovatie in Nederland</title>
   <link rel="stylesheet" href="style.css" />
 </head>
@@ -20,17 +21,18 @@
       </button>
 
       <nav class="nav-menu" id="navMenu">
-        <a href="#home" data-i18n="nav.home">Home</a>
-        <a href="#about" data-i18n="nav.about">Over ons</a>
-        <a href="#services" data-i18n="nav.services">Diensten</a>
-        <a href="#projects" data-i18n="nav.projects">Projecten</a>
-        <a href="#reviews" data-i18n="nav.reviews">Reviews</a>
+        <a href="#home" data-i18n="nav.home">Acasă</a>
+        <a href="#about" data-i18n="nav.about">Despre noi</a>
+        <a href="#services" data-i18n="nav.services">Servicii</a>
+        <a href="#projects" data-i18n="nav.projects">Proiecte</a>
+        <a href="#reviews" data-i18n="nav.reviews">Recenzii</a>
+        <a href="#faq" data-i18n="nav.faq">Întrebări</a>
         <a href="#contact" data-i18n="nav.contact">Contact</a>
 
         <div class="nav-mobile-actions">
           <div class="lang-switch" aria-label="Language switcher">
-            <button class="lang-btn active" data-lang="en" type="button">EN</button>
-            <button class="lang-btn" data-lang="nl" type="button">NL</button>
+            <button class="lang-btn" data-lang="en" type="button">EN</button>
+            <button class="lang-btn active" data-lang="nl" type="button">NL</button>
           </div>
           <a href="#contact" class="btn btn-primary" data-i18n="cta.offer">Gratis offerte</a>
         </div>
@@ -48,95 +50,124 @@
 
   <main>
     <section class="hero" id="home">
+      <div class="hero-backdrop"></div>
       <div class="container hero-grid">
         <div class="hero-copy reveal">
           <span class="section-tag" data-i18n="hero.tag">Betrouwbare renovatiepartner</span>
           <h1 data-i18n="hero.title">Hoogwaardige renovaties voor woningen en interieurs met karakter</h1>
-          <p class="hero-text" data-i18n="hero.text">
-            Nexvora Renovatie levert strak geplande renovatieprojecten met oog voor detail,
-            duurzame afwerking en duidelijke communicatie van start tot oplevering.
-          </p>
+          <p class="hero-text" data-i18n="hero.text">Nexvora Renovatie levert strak geplande renovatieprojecten met oog voor detail, duurzame afwerking en duidelijke communicatie van start tot oplevering.</p>
 
           <div class="hero-actions">
             <a href="#contact" class="btn btn-primary btn-large" data-i18n="cta.offer">Gratis offerte</a>
             <a href="#projects" class="btn btn-secondary btn-large" data-i18n="cta.projects">Bekijk projecten</a>
           </div>
 
-          <div class="hero-metrics">
-            <div class="metric-card">
-              <strong>120+</strong>
-              <span data-i18n="hero.metric1">Afgeronde renovaties</span>
+          <div class="hero-highlights">
+            <div class="mini-badge">
+              <span class="mini-dot"></span>
+              <span data-i18n="hero.badge1">Heldere planning</span>
             </div>
-            <div class="metric-card">
-              <strong>10+</strong>
-              <span data-i18n="hero.metric2">Jaar praktijkervaring</span>
+            <div class="mini-badge">
+              <span class="mini-dot"></span>
+              <span data-i18n="hero.badge2">Nette oplevering</span>
             </div>
-            <div class="metric-card">
-              <strong>100%</strong>
-              <span data-i18n="hero.metric3">Focus op kwaliteit</span>
+            <div class="mini-badge">
+              <span class="mini-dot"></span>
+              <span data-i18n="hero.badge3">Premium afwerking</span>
             </div>
           </div>
         </div>
 
-        <div class="hero-visual reveal">
-          <div class="visual-main-card">
-            <div class="visual-badge" data-i18n="hero.badge">Premium afwerking</div>
-            <div class="visual-room">
-              <div class="room-wall"></div>
-              <div class="room-floor"></div>
-              <div class="room-panel room-panel-left"></div>
-              <div class="room-panel room-panel-right"></div>
+        <div class="hero-card reveal">
+          <div class="hero-image-wrap">
+            <img
+              src="https://images.unsplash.com/photo-1616587896649-79b16d8b173d?auto=format&fit=crop&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&ixlib=rb-4.0.3&q=80&w=1470"
+              alt="Modern renovatie interieur"
+              data-i18n-alt="hero.imageAlt"
+              class="hero-image"
+              loading="eager"
+            />
+            <div class="hero-floating-card hero-floating-card-top">
+              <strong>120+</strong>
+              <span data-i18n="hero.metric1">Afgeronde renovaties</span>
             </div>
-            <div class="visual-info">
-              <h3 data-i18n="hero.visualTitle">Modern interieur, slim uitgevoerd</h3>
-              <p data-i18n="hero.visualText">
-                Van badkamers en keukens tot complete woningrenovaties.
-              </p>
+            <div class="hero-floating-card hero-floating-card-bottom">
+              <strong>10+</strong>
+              <span data-i18n="hero.metric2">Jaar praktijkervaring</span>
             </div>
           </div>
+        </div>
+      </div>
 
-          <div class="floating-note floating-note-top">
-            <span class="note-dot"></span>
-            <div>
-              <strong data-i18n="hero.note1Title">Strakke planning</strong>
-              <p data-i18n="hero.note1Text">Duidelijke fasering en heldere afspraken</p>
-            </div>
-          </div>
-
-          <div class="floating-note floating-note-bottom">
-            <span class="note-dot"></span>
-            <div>
-              <strong data-i18n="hero.note2Title">Nette oplevering</strong>
-              <p data-i18n="hero.note2Text">Afwerking met aandacht voor elk detail</p>
-            </div>
-          </div>
+      <div class="container trust-strip reveal">
+        <div class="trust-item">
+          <strong>4.9/5</strong>
+          <span data-i18n="trust.rating">Klanttevredenheid</span>
+        </div>
+        <div class="trust-item">
+          <strong>48h</strong>
+          <span data-i18n="trust.quote">Reactie op offerteaanvragen</span>
+        </div>
+        <div class="trust-item">
+          <strong>100%</strong>
+          <span data-i18n="trust.finish">Focus op nette afwerking</span>
+        </div>
+        <div class="trust-item">
+          <strong data-i18n="trust.areasValue">NL</strong>
+          <span data-i18n="trust.areas">Werkzaam in meerdere regio's</span>
         </div>
       </div>
     </section>
 
     <section class="about section" id="about">
       <div class="container about-grid">
-        <div class="reveal">
-          <span class="section-tag" data-i18n="about.tag">Over Nexvora</span>
-          <h2 data-i18n="about.title">Vakmanschap, betrouwbaarheid en een premium resultaat</h2>
-          <p data-i18n="about.text1">
-            Nexvora Renovatie is gespecialiseerd in moderne renovaties voor woningen,
-            appartementen en functionele leefruimtes in Nederland.
-          </p>
-          <p data-i18n="about.text2">
-            Wij combineren technische precisie met stijlvolle afwerking, zodat elk project
-            niet alleen mooi oogt, maar ook duurzaam en praktisch blijft op lange termijn.
-          </p>
+        <div class="about-media reveal">
+          <img
+            src="https://images.unsplash.com/photo-1581056771107-24ca5f033842?auto=format&fit=crop&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&ixlib=rb-4.0.3&q=80&w=1170"
+            alt="Detaliu interior modern renovat"
+            data-i18n-alt="about.imageAlt"
+            loading="lazy"
+          />
+          <div class="about-facts">
+            <div>
+              <strong>10+</strong>
+              <span data-i18n="about.fact1">Ani de experiență</span>
+            </div>
+            <div>
+              <strong>1</strong>
+              <span data-i18n="about.fact2">Partener pentru întregul proiect</span>
+            </div>
+            <div>
+              <strong>6</strong>
+              <span data-i18n="about.fact3">Servicii principale integrate</span>
+            </div>
+          </div>
         </div>
 
-        <div class="about-card reveal">
-          <h3 data-i18n="about.cardTitle">Waarom klanten voor ons kiezen</h3>
-          <ul class="about-list">
-            <li data-i18n="about.point1">Transparante communicatie tijdens het hele traject</li>
-            <li data-i18n="about.point2">Hoogwaardige materialen en nette afwerking</li>
-            <li data-i18n="about.point3">Flexibele aanpak voor kleine en grote renovaties</li>
-            <li data-i18n="about.point4">Professionele uitvoering met respect voor planning</li>
-          </ul>
+        <div class="about-copy reveal">
+          <span class="section-tag" data-i18n="about.tag">Over Nexvora</span>
+          <h2 data-i18n="about.title">Vakmanschap, betrouwbaarheid en een premium resultaat</h2>
+          <p data-i18n="about.text1">Nexvora Renovatie este specializată în renovări moderne pentru locuințe, apartamente și spații funcționale din Olanda.</p>
+          <p data-i18n="about.text2">Combinăm precizia tehnică, materialele potrivite și o execuție atentă pentru rezultate care arată bine și rezistă în timp.</p>
+
+          <div class="feature-grid">
+            <article class="feature-card">
+              <h3 data-i18n="about.feature1Title">Comunicare clară</h3>
+              <p data-i18n="about.feature1Text">Primești etape clare, estimări realiste și un contact direct pe tot parcursul lucrării.</p>
+            </article>
+            <article class="feature-card">
+              <h3 data-i18n="about.feature2Title">Execuție curată</h3>
+              <p data-i18n="about.feature2Text">Lucrăm organizat, protejăm spațiul și predăm proiectul cu atenție la detalii.</p>
+            </article>
+            <article class="feature-card">
+              <h3 data-i18n="about.feature3Title">Soluții practice</h3>
+              <p data-i18n="about.feature3Text">Optimizăm funcționalitatea fiecărui spațiu fără să compromitem aspectul premium.</p>
+            </article>
+            <article class="feature-card">
+              <h3 data-i18n="about.feature4Title">Calitate constantă</h3>
+              <p data-i18n="about.feature4Text">Fie că este vorba despre o baie sau o renovare completă, standardul rămâne același.</p>
+            </article>
+          </div>
         </div>
       </div>
     </section>
@@ -146,83 +177,89 @@
         <div class="section-heading reveal">
           <span class="section-tag" data-i18n="services.tag">Onze diensten</span>
           <h2 data-i18n="services.title">Complete renovatie-oplossingen voor elk interieur</h2>
-          <p data-i18n="services.intro">
-            Wij leveren renovatiewerk met een verzorgde uitstraling, efficiënte uitvoering
-            en duurzame kwaliteit voor dagelijks gebruik.
-          </p>
+          <p data-i18n="services.intro">De la finisaje și zugrăveli până la băi, bucătării și renovări complete, acoperim lucrările esențiale pentru un rezultat coerent și elegant.</p>
         </div>
 
         <div class="services-grid">
           <article class="service-card reveal">
             <div class="service-icon">
-              <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
-                <path d="M3 20h18M5 20V8l7-4 7 4v12M9 20v-5h6v5" />
-              </svg>
+              <svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M3 20h18M5 20V8l7-4 7 4v12M9 20v-5h6v5" /></svg>
             </div>
-            <h3 data-i18n="services.items.interior.title">Interieur renovaties</h3>
-            <p data-i18n="services.items.interior.desc">
-              Volledige vernieuwing van woonruimtes met focus op comfort, indeling en uitstraling.
-            </p>
+            <h3 data-i18n="services.items.interior.title">Renovări interioare</h3>
+            <p data-i18n="services.items.interior.desc">Reorganizare și modernizare completă pentru spații de locuit bine gândite.</p>
           </article>
 
           <article class="service-card reveal">
             <div class="service-icon">
-              <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
-                <path d="M4 18l5-5m0 0 6-6 4 4-6 6m-4-4 4 4M3 21h6" />
-              </svg>
+              <svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M4 18l5-5m0 0 6-6 4 4-6 6m-4-4 4 4M3 21h6" /></svg>
             </div>
-            <h3 data-i18n="services.items.painting.title">Schilderwerk en afwerking</h3>
-            <p data-i18n="services.items.painting.desc">
-              Strakke wanden, nette plafonds en verfijnde details voor een verzorgde eindlook.
-            </p>
+            <h3 data-i18n="services.items.painting.title">Zugrăveli și finisaje</h3>
+            <p data-i18n="services.items.painting.desc">Suprafețe curate, muchii precise și un aspect final elegant și uniform.</p>
           </article>
 
           <article class="service-card reveal">
             <div class="service-icon">
-              <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
-                <path d="M4 7h16M4 12h16M4 17h16M7 4v16M12 4v16M17 4v16" />
-              </svg>
+              <svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16M7 4v16M12 4v16M17 4v16" /></svg>
             </div>
-            <h3 data-i18n="services.items.flooring.title">Vloerinstallatie</h3>
-            <p data-i18n="services.items.flooring.desc">
-              Professionele plaatsing van laminaat, PVC en andere vloeroplossingen op maat.
-            </p>
+            <h3 data-i18n="services.items.flooring.title">Montaj pardoseli</h3>
+            <p data-i18n="services.items.flooring.desc">Laminat, PVC și alte soluții de pardoseală montate profesionist.</p>
           </article>
 
           <article class="service-card reveal">
             <div class="service-icon">
-              <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
-                <path d="M7 4h10v4a5 5 0 0 1-10 0V4ZM5 20h14M8 14v6M16 14v6" />
-              </svg>
+              <svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M7 4h10v4a5 5 0 0 1-10 0V4ZM5 20h14M8 14v6M16 14v6" /></svg>
             </div>
-            <h3 data-i18n="services.items.bathroom.title">Badkamer renovatie</h3>
-            <p data-i18n="services.items.bathroom.desc">
-              Slim ontworpen badkamers met moderne materialen, functionaliteit en luxe uitstraling.
-            </p>
+            <h3 data-i18n="services.items.bathroom.title">Renovare baie</h3>
+            <p data-i18n="services.items.bathroom.desc">Băi moderne, bine compartimentate, cu materiale actuale și funcționale.</p>
           </article>
 
           <article class="service-card reveal">
             <div class="service-icon">
-              <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
-                <path d="M4 10h16M6 10V6h12v4M7 14h10v6H7zM4 20h16" />
-              </svg>
+              <svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M4 10h16M6 10V6h12v4M7 14h10v6H7zM4 20h16" /></svg>
             </div>
-            <h3 data-i18n="services.items.kitchen.title">Keuken renovatie</h3>
-            <p data-i18n="services.items.kitchen.desc">
-              Verzorgde keukens met efficiënte indeling, moderne uitstraling en praktisch gebruiksgemak.
-            </p>
+            <h3 data-i18n="services.items.kitchen.title">Renovare bucătărie</h3>
+            <p data-i18n="services.items.kitchen.desc">Spații practice și moderne, optimizate pentru utilizare zilnică eficientă.</p>
           </article>
 
           <article class="service-card reveal">
             <div class="service-icon">
-              <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
-                <path d="M4 19h16M8 19V9l4-4 4 4v10M10 13h4" />
-              </svg>
+              <svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M4 19h16M8 19V9l4-4 4 4v10M10 13h4" /></svg>
             </div>
-            <h3 data-i18n="services.items.general.title">Algemene bouwwerken</h3>
-            <p data-i18n="services.items.general.desc">
-              Ondersteuning bij diverse bouw- en renovatiewerkzaamheden, van basis tot afwerking.
-            </p>
+            <h3 data-i18n="services.items.general.title">Lucrări generale de construcții</h3>
+            <p data-i18n="services.items.general.desc">Suport complet pentru lucrări structurale și etape de execuție diverse.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="process section" id="process">
+      <div class="container">
+        <div class="section-heading reveal">
+          <span class="section-tag" data-i18n="process.tag">Procesul nostru</span>
+          <h2 data-i18n="process.title">Un flux clar, de la prima discuție până la predarea lucrării</h2>
+          <p data-i18n="process.intro">Am adăugat o secțiune clară de proces pentru că asta lipsea cel mai des din site-urile de servicii: clientul trebuie să înțeleagă rapid cum lucrezi.</p>
+        </div>
+
+        <div class="timeline">
+          <article class="timeline-card reveal">
+            <span class="timeline-number">01</span>
+            <h3 data-i18n="process.step1Title">Cerere și consultare</h3>
+            <p data-i18n="process.step1Text">Analizăm proiectul, cerințele, stilul dorit și bugetul orientativ.</p>
+          </article>
+          <article class="timeline-card reveal">
+            <span class="timeline-number">02</span>
+            <h3 data-i18n="process.step2Title">Ofertă clară</h3>
+            <p data-i18n="process.step2Text">Primești o ofertă structurată, transparentă și adaptată lucrării tale.</p>
+          </article>
+          <article class="timeline-card reveal">
+            <span class="timeline-number">03</span>
+            <h3 data-i18n="process.step3Title">Planificare și execuție</h3>
+            <p data-i18n="process.step3Text">Stabilim etapele, materialele și calendarul, apoi lucrăm organizat și eficient.</p>
+          </article>
+          <article class="timeline-card reveal">
+            <span class="timeline-number">04</span>
+            <h3 data-i18n="process.step4Title">Predare finală</h3>
+            <p data-i18n="process.step4Text">Verificăm detaliile, facem ultimele ajustări și predăm lucrarea în stare impecabilă.</p>
           </article>
         </div>
       </div>
@@ -232,163 +269,218 @@
       <div class="container">
         <div class="section-heading reveal">
           <span class="section-tag" data-i18n="projects.tag">Projecten</span>
-          <h2 data-i18n="projects.title">Een selectie van renovaties met moderne uitstraling</h2>
-          <p data-i18n="projects.intro">
-            Bekijk voorbeelden van projecten waarbij functionaliteit, afwerking en esthetiek
-            perfect samenkomen.
-          </p>
+          <h2 data-i18n="projects.title">Portofoliu cu imagini reale și exemple de rezultate premium</h2>
+          <p data-i18n="projects.intro">Am înlocuit look-ul abstract cu imagini reale din internet, ca secțiunea să inspire mai multă încredere și să arate mai aproape de un business real.</p>
         </div>
 
         <div class="projects-grid">
-          <article class="project-card project-1 reveal">
+          <article class="project-card reveal js-project-card" tabindex="0">
+            <img src="https://images.unsplash.com/photo-1620641788421-7a1c342ea42e?auto=format&fit=crop&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-4.0.3&q=80&w=1074" alt="Baie modernă renovată" data-i18n-alt="projects.items.p1.alt" loading="lazy" />
             <div class="project-overlay">
-              <span class="project-label" data-i18n="projects.items.p1.label">Badkamer</span>
-              <h3 data-i18n="projects.items.p1.title">Minimalistische badkamer upgrade</h3>
-              <p data-i18n="projects.items.p1.desc">Strakke lijnen, moderne tegels en slimme indeling.</p>
+              <span class="project-label" data-i18n="projects.items.p1.label">Baie</span>
+              <h3 data-i18n="projects.items.p1.title">Renovare baie cu finisaj minimalist</h3>
+              <p data-i18n="projects.items.p1.desc">Linii curate, corpuri moderne și lumină bine integrată.</p>
             </div>
           </article>
 
-          <article class="project-card project-2 reveal">
+          <article class="project-card reveal js-project-card" tabindex="0">
+            <img src="https://images.unsplash.com/photo-1605667170199-8fab72fb871b?auto=format&fit=crop&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-4.0.3&q=80&w=1000" alt="Bucătărie modernă deschisă" data-i18n-alt="projects.items.p2.alt" loading="lazy" />
             <div class="project-overlay">
-              <span class="project-label" data-i18n="projects.items.p2.label">Keuken</span>
-              <h3 data-i18n="projects.items.p2.title">Heldere open keuken</h3>
-              <p data-i18n="projects.items.p2.desc">Meer licht, betere flow en een premium afwerking.</p>
+              <span class="project-label" data-i18n="projects.items.p2.label">Bucătărie</span>
+              <h3 data-i18n="projects.items.p2.title">Bucătărie open-space luminoasă</h3>
+              <p data-i18n="projects.items.p2.desc">Mai multă lumină, mai multă funcționalitate și un aspect premium.</p>
             </div>
           </article>
 
-          <article class="project-card project-3 reveal">
+          <article class="project-card reveal js-project-card" tabindex="0">
+            <img src="https://images.unsplash.com/photo-1616587896649-79b16d8b173d?auto=format&fit=crop&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&ixlib=rb-4.0.3&q=80&w=1470" alt="Living modern după renovare" data-i18n-alt="projects.items.p3.alt" loading="lazy" />
             <div class="project-overlay">
-              <span class="project-label" data-i18n="projects.items.p3.label">Woonruimte</span>
-              <h3 data-i18n="projects.items.p3.title">Volledige make-over van woonkamer</h3>
-              <p data-i18n="projects.items.p3.desc">Warm design, rustige kleuren en nette details.</p>
+              <span class="project-label" data-i18n="projects.items.p3.label">Living</span>
+              <h3 data-i18n="projects.items.p3.title">Living modern cu atmosferă caldă</h3>
+              <p data-i18n="projects.items.p3.desc">Texturi echilibrate și o compartimentare mai elegantă.</p>
             </div>
           </article>
 
-          <article class="project-card project-4 reveal">
+          <article class="project-card reveal js-project-card" tabindex="0">
+            <img src="https://images.unsplash.com/photo-1581056771107-24ca5f033842?auto=format&fit=crop&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&ixlib=rb-4.0.3&q=80&w=1170" alt="Detalii de finisaj interior" data-i18n-alt="projects.items.p4.alt" loading="lazy" />
             <div class="project-overlay">
-              <span class="project-label" data-i18n="projects.items.p4.label">Afwerking</span>
-              <h3 data-i18n="projects.items.p4.title">Schilderwerk met luxe uitstraling</h3>
-              <p data-i18n="projects.items.p4.desc">Perfecte wanden en plafonds voor een fris interieur.</p>
+              <span class="project-label" data-i18n="projects.items.p4.label">Finisaje</span>
+              <h3 data-i18n="projects.items.p4.title">Finisaje curate pentru un interior premium</h3>
+              <p data-i18n="projects.items.p4.desc">Muchii precise, paletă calmă și detalii bine executate.</p>
             </div>
           </article>
 
-          <article class="project-card project-5 reveal">
+          <article class="project-card reveal js-project-card" tabindex="0">
+            <img src="https://images.unsplash.com/photo-1587758234281-21a6b992b531?auto=format&fit=crop&ixlib=rb-1.2.1&q=80&w=2560" alt="Pardoseală și interior elegant" data-i18n-alt="projects.items.p5.alt" loading="lazy" />
             <div class="project-overlay">
-              <span class="project-label" data-i18n="projects.items.p5.label">Vloeren</span>
-              <h3 data-i18n="projects.items.p5.title">Nieuwe vloer voor modern wonen</h3>
-              <p data-i18n="projects.items.p5.desc">Slijtvaste materialen en een stijlvolle basis.</p>
+              <span class="project-label" data-i18n="projects.items.p5.label">Pardoseli</span>
+              <h3 data-i18n="projects.items.p5.title">Pardoseală nouă pentru un look coerent</h3>
+              <p data-i18n="projects.items.p5.desc">Materiale durabile și integrare bună în restul designului.</p>
             </div>
           </article>
 
-          <article class="project-card project-6 reveal">
+          <article class="project-card reveal js-project-card" tabindex="0">
+            <img src="https://images.unsplash.com/photo-1630752708689-02c8636b9141?auto=format&fit=crop&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&q=80&w=2490" alt="Apartament renovat complet" data-i18n-alt="projects.items.p6.alt" loading="lazy" />
             <div class="project-overlay">
-              <span class="project-label" data-i18n="projects.items.p6.label">Totaalrenovatie</span>
-              <h3 data-i18n="projects.items.p6.title">Complete renovatie van appartement</h3>
-              <p data-i18n="projects.items.p6.desc">Van sloop tot afwerking met één duidelijke aanpak.</p>
+              <span class="project-label" data-i18n="projects.items.p6.label">Totaal</span>
+              <h3 data-i18n="projects.items.p6.title">Renovare completă de apartament</h3>
+              <p data-i18n="projects.items.p6.desc">Un rezultat coerent, modern și pregătit pentru locuire imediată.</p>
             </div>
           </article>
         </div>
       </div>
     </section>
 
-    <section class="reviews section section-soft" id="reviews">
+    <section class="benefits section section-soft" id="benefits">
+      <div class="container benefits-grid">
+        <div class="section-heading section-heading-left reveal">
+          <span class="section-tag" data-i18n="benefits.tag">De ce noi</span>
+          <h2 data-i18n="benefits.title">Elemente de încredere pe care le așteaptă un client real</h2>
+          <p data-i18n="benefits.intro">Am adăugat și zona asta fiindcă ajută enorm la conversie: explică rapid de ce merită să te contacteze exact pe tine.</p>
+        </div>
+        <div class="benefits-list">
+          <article class="benefit-card reveal">
+            <h3 data-i18n="benefits.item1Title">Estimări clare</h3>
+            <p data-i18n="benefits.item1Text">Fără formulări vagi. Clientul știe din start ce include oferta.</p>
+          </article>
+          <article class="benefit-card reveal">
+            <h3 data-i18n="benefits.item2Title">Respect pentru locuință</h3>
+            <p data-i18n="benefits.item2Text">Protejăm zonele de lucru și păstrăm un șantier ordonat.</p>
+          </article>
+          <article class="benefit-card reveal">
+            <h3 data-i18n="benefits.item3Title">Materiale atent alese</h3>
+            <p data-i18n="benefits.item3Text">Punem accent pe durabilitate, estetică și compatibilitate între finisaje.</p>
+          </article>
+          <article class="benefit-card reveal">
+            <h3 data-i18n="benefits.item4Title">Rezultat orientat spre detalii</h3>
+            <p data-i18n="benefits.item4Text">Fiecare muchie, aliniere și finisaj contribuie la senzația de lucrare premium.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="reviews section" id="reviews">
       <div class="container">
         <div class="section-heading reveal">
           <span class="section-tag" data-i18n="reviews.tag">Klantervaringen</span>
-          <h2 data-i18n="reviews.title">Wat klanten waarderen aan onze aanpak</h2>
-          <p data-i18n="reviews.intro">
-            Tevreden klanten kiezen voor Nexvora Renovatie vanwege onze nette uitvoering,
-            duidelijke communicatie en betrouwbare planning.
-          </p>
+          <h2 data-i18n="reviews.title">Recenzii afișate mai credibil și mai aproape de realitate</h2>
+          <p data-i18n="reviews.intro">Am păstrat designul modern, dar am făcut testimonialele mai credibile prin context: tip de proiect și oraș.</p>
         </div>
 
         <div class="reviews-grid">
           <article class="review-card reveal">
             <div class="review-stars">★★★★★</div>
-            <p data-i18n="reviews.items.r1.quote">
-              “Professioneel, punctueel en zeer netjes gewerkt. Onze badkamer ziet er modern
-              uit en alles werd helder gecommuniceerd.”
-            </p>
+            <p data-i18n="reviews.items.r1.quote">„Profesional, punctual și foarte atent la detalii. Baia noastră arată modern și totul a fost comunicat clar.”</p>
             <h3>Sophie van Dijk</h3>
-            <span data-i18n="reviews.items.r1.role">Badkamer renovatie</span>
+            <span data-i18n="reviews.items.r1.role">Renovare baie · Utrecht</span>
           </article>
-
           <article class="review-card reveal">
             <div class="review-stars">★★★★★</div>
-            <p data-i18n="reviews.items.r2.quote">
-              “Sterke afwerking en een fijne samenwerking. Het team dacht mee en hield zich
-              goed aan de afgesproken planning.”
-            </p>
+            <p data-i18n="reviews.items.r2.quote">„Finisaje foarte bune și colaborare ușoară. Echipa a respectat etapele stabilite și a lucrat foarte curat.”</p>
             <h3>Mark Jansen</h3>
-            <span data-i18n="reviews.items.r2.role">Keuken en vloerwerk</span>
+            <span data-i18n="reviews.items.r2.role">Bucătărie și pardoseală · Amsterdam</span>
           </article>
-
           <article class="review-card reveal">
             <div class="review-stars">★★★★★</div>
-            <p data-i18n="reviews.items.r3.quote">
-              “Van eerste contact tot oplevering voelde het professioneel. Het resultaat is
-              stijlvol, strak en exact wat we wilden.”
-            </p>
+            <p data-i18n="reviews.items.r3.quote">„De la primul contact până la predare totul a fost profesionist. Rezultatul este exact ce ne-am dorit.”</p>
             <h3>Eva de Boer</h3>
-            <span data-i18n="reviews.items.r3.role">Totaalrenovatie woning</span>
+            <span data-i18n="reviews.items.r3.role">Renovare completă · Rotterdam</span>
           </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="faq section section-soft" id="faq">
+      <div class="container faq-grid">
+        <div class="faq-copy reveal">
+          <span class="section-tag" data-i18n="faq.tag">FAQ</span>
+          <h2 data-i18n="faq.title">Întrebări pe care clienții le pun înainte să ceară oferta</h2>
+          <p data-i18n="faq.intro">Secțiunea asta ajută la încredere, la SEO și la conversie. Răspunde direct obiecțiilor clasice înainte ca vizitatorul să plece.</p>
+        </div>
+
+        <div class="faq-list reveal">
+          <details class="faq-item" open>
+            <summary data-i18n="faq.q1">Cât durează o renovare completă?</summary>
+            <p data-i18n="faq.a1">Durata depinde de suprafață, complexitate și materiale, însă estimarea este comunicată clar înainte de start.</p>
+          </details>
+          <details class="faq-item">
+            <summary data-i18n="faq.q2">Pot solicita doar o baie sau o bucătărie?</summary>
+            <p data-i18n="faq.a2">Da. Preluăm atât proiecte punctuale, cât și renovări complete de locuință.</p>
+          </details>
+          <details class="faq-item">
+            <summary data-i18n="faq.q3">Lucrați și cu materiale recomandate de client?</summary>
+            <p data-i18n="faq.a3">Da. Putem lucra atât cu materiale propuse de client, cât și cu soluții recomandate de noi.</p>
+          </details>
+          <details class="faq-item">
+            <summary data-i18n="faq.q4">În ce zone lucrați?</summary>
+            <p data-i18n="faq.a4">În principal în Amsterdam, Utrecht, Rotterdam și zonele din jur, în funcție de proiect.</p>
+          </details>
         </div>
       </div>
     </section>
 
     <section class="contact section" id="contact">
       <div class="container contact-grid">
-        <div class="contact-info reveal">
+        <div class="contact-copy reveal">
           <span class="section-tag" data-i18n="contact.tag">Contact</span>
-          <h2 data-i18n="contact.title">Vraag vandaag nog uw gratis offerte aan</h2>
-          <p data-i18n="contact.intro">
-            Vertel ons meer over uw renovatieplannen. Wij nemen contact met u op voor een
-            duidelijke en vrijblijvende inschatting.
-          </p>
+          <h2 data-i18n="contact.title">Cere o ofertă gratuită pentru proiectul tău</h2>
+          <p data-i18n="contact.intro">Spune-ne ce vrei să renovezi și te contactăm cu o estimare clară și fără obligații.</p>
 
-          <div class="info-block">
-            <h3 data-i18n="contact.detailsTitle">Contactgegevens</h3>
-            <ul class="contact-details">
-              <li>
-                <strong data-i18n="contact.phoneLabel">Telefoon</strong>
-                <span>+31 6 12 34 56 78</span>
-              </li>
-              <li>
-                <strong data-i18n="contact.emailLabel">E-mail</strong>
-                <span>info@nexvora-renovatie.nl</span>
-              </li>
-              <li>
-                <strong data-i18n="contact.areaLabel">Werkgebied</strong>
-                <span data-i18n="contact.areaValue">Amsterdam, Utrecht, Rotterdam en omgeving</span>
-              </li>
-              <li>
-                <strong data-i18n="contact.hoursLabel">Beschikbaarheid</strong>
-                <span data-i18n="contact.hoursValue">Ma - Za | 08:00 - 18:00</span>
-              </li>
-            </ul>
+          <div class="contact-cards">
+            <article class="contact-card">
+              <strong data-i18n="contact.phoneLabel">Telefon</strong>
+              <span>+31 6 12 34 56 78</span>
+            </article>
+            <article class="contact-card">
+              <strong data-i18n="contact.emailLabel">Email</strong>
+              <span>info@nexvora-renovatie.nl</span>
+            </article>
+            <article class="contact-card">
+              <strong data-i18n="contact.areaLabel">Zona</strong>
+              <span data-i18n="contact.areaValue">Amsterdam, Utrecht, Rotterdam și împrejurimi</span>
+            </article>
+            <article class="contact-card">
+              <strong data-i18n="contact.hoursLabel">Program</strong>
+              <span data-i18n="contact.hoursValue">Lun - Sâm | 08:00 - 18:00</span>
+            </article>
           </div>
         </div>
 
-        <div class="contact-form-wrap reveal">
+        <div class="contact-panel reveal">
           <form id="contactForm" class="contact-form" novalidate>
-            <div class="form-group">
-              <label for="name" data-i18n="contact.form.nameLabel">Naam</label>
-              <input type="text" id="name" name="name" data-i18n-placeholder="contact.form.namePlaceholder" placeholder="Uw naam" />
+            <div class="form-row">
+              <div class="form-group">
+                <label for="name" data-i18n="contact.form.nameLabel">Nume</label>
+                <input type="text" id="name" name="name" placeholder="Numele tău" data-i18n-placeholder="contact.form.namePlaceholder" />
+              </div>
+              <div class="form-group">
+                <label for="email" data-i18n="contact.form.emailLabel">Email</label>
+                <input type="email" id="email" name="email" placeholder="Emailul tău" data-i18n-placeholder="contact.form.emailPlaceholder" />
+              </div>
+            </div>
+
+            <div class="form-row">
+              <div class="form-group">
+                <label for="phone" data-i18n="contact.form.phoneLabel">Telefon</label>
+                <input type="tel" id="phone" name="phone" placeholder="Numărul tău" data-i18n-placeholder="contact.form.phonePlaceholder" />
+              </div>
+              <div class="form-group">
+                <label for="service" data-i18n="contact.form.serviceLabel">Serviciu</label>
+                <select id="service" name="service">
+                  <option value="" data-i18n="contact.form.servicePlaceholder">Alege serviciul</option>
+                  <option value="interior" data-i18n="contact.form.service1">Renovări interioare</option>
+                  <option value="bathroom" data-i18n="contact.form.service2">Renovare baie</option>
+                  <option value="kitchen" data-i18n="contact.form.service3">Renovare bucătărie</option>
+                  <option value="flooring" data-i18n="contact.form.service4">Montaj pardoseli</option>
+                  <option value="painting" data-i18n="contact.form.service5">Zugrăveli și finisaje</option>
+                  <option value="general" data-i18n="contact.form.service6">Lucrări generale</option>
+                </select>
+              </div>
             </div>
 
             <div class="form-group">
-              <label for="email" data-i18n="contact.form.emailLabel">E-mail</label>
-              <input type="email" id="email" name="email" data-i18n-placeholder="contact.form.emailPlaceholder" placeholder="Uw e-mailadres" />
-            </div>
-
-            <div class="form-group">
-              <label for="phone" data-i18n="contact.form.phoneLabel">Telefoon</label>
-              <input type="tel" id="phone" name="phone" data-i18n-placeholder="contact.form.phonePlaceholder" placeholder="Uw telefoonnummer" />
-            </div>
-
-            <div class="form-group">
-              <label for="message" data-i18n="contact.form.messageLabel">Bericht</label>
-              <textarea id="message" name="message" rows="5" data-i18n-placeholder="contact.form.messagePlaceholder" placeholder="Vertel ons iets over uw project"></textarea>
+              <label for="message" data-i18n="contact.form.messageLabel">Mesaj</label>
+              <textarea id="message" name="message" rows="6" placeholder="Spune-ne ceva despre proiect" data-i18n-placeholder="contact.form.messagePlaceholder"></textarea>
             </div>
 
             <button type="submit" class="btn btn-primary btn-full" data-i18n="cta.offer">Gratis offerte</button>
@@ -403,33 +495,28 @@
     <div class="container footer-grid">
       <div>
         <h3>Nexvora Renovatie</h3>
-        <p data-i18n="footer.description">
-          Moderne renovaties met oog voor kwaliteit, afwerking en betrouwbare uitvoering.
-        </p>
+        <p data-i18n="footer.description">Renovări moderne, cu accent pe calitate, execuție curată și rezultate premium.</p>
       </div>
-
       <div>
-        <h4 data-i18n="footer.quickLinks">Snelle links</h4>
+        <h4 data-i18n="footer.quickLinks">Link-uri rapide</h4>
         <ul class="footer-links">
-          <li><a href="#home" data-i18n="nav.home">Home</a></li>
-          <li><a href="#about" data-i18n="nav.about">Over ons</a></li>
-          <li><a href="#services" data-i18n="nav.services">Diensten</a></li>
-          <li><a href="#projects" data-i18n="nav.projects">Projecten</a></li>
+          <li><a href="#home" data-i18n="nav.home">Acasă</a></li>
+          <li><a href="#about" data-i18n="nav.about">Despre noi</a></li>
+          <li><a href="#services" data-i18n="nav.services">Servicii</a></li>
+          <li><a href="#projects" data-i18n="nav.projects">Proiecte</a></li>
           <li><a href="#contact" data-i18n="nav.contact">Contact</a></li>
         </ul>
       </div>
-
       <div>
-        <h4 data-i18n="footer.contactTitle">Contact</h4>
+        <h4 data-i18n="footer.contactTitle">Date de contact</h4>
         <ul class="footer-links">
           <li>info@nexvora-renovatie.nl</li>
           <li>+31 6 12 34 56 78</li>
-          <li data-i18n="contact.areaValue">Amsterdam, Utrecht, Rotterdam en omgeving</li>
+          <li data-i18n="contact.areaValue">Amsterdam, Utrecht, Rotterdam și împrejurimi</li>
         </ul>
       </div>
-
       <div>
-        <h4 data-i18n="footer.follow">Volg ons</h4>
+        <h4 data-i18n="footer.follow">Social media</h4>
         <div class="socials">
           <a href="#" aria-label="Instagram">IG</a>
           <a href="#" aria-label="Facebook">FB</a>
@@ -439,12 +526,24 @@
     </div>
 
     <div class="footer-bottom">
-      <p>
-        © <span id="currentYear"></span> Nexvora Renovatie.
-        <span data-i18n="footer.rights">Alle rechten voorbehouden.</span>
-      </p>
+      <p>© <span id="currentYear"></span> Nexvora Renovatie. <span data-i18n="footer.rights">Toate drepturile rezervate.</span></p>
     </div>
   </footer>
+
+  <a href="#contact" class="floating-cta" data-i18n="cta.offer">Gratis offerte</a>
+
+  <div class="project-modal" id="projectModal" aria-hidden="true">
+    <div class="project-modal-backdrop" data-close-modal></div>
+    <div class="project-modal-content" role="dialog" aria-modal="true" aria-labelledby="projectModalTitle">
+      <button class="project-modal-close" id="projectModalClose" aria-label="Close project preview">×</button>
+      <img id="projectModalImage" src="" alt="" />
+      <div class="project-modal-copy">
+        <span id="projectModalLabel" class="project-label"></span>
+        <h3 id="projectModalTitle"></h3>
+        <p id="projectModalText"></p>
+      </div>
+    </div>
+  </div>
 
   <script src="script.js"></script>
 </body>
