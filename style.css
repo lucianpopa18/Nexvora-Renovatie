@@ -186,6 +186,13 @@ button {
   font-weight: 900;
   font-size: 1.35rem;
   letter-spacing: -0.03em;
+  display: flex;
+  align-items: center;
+}
+
+.logo-img {
+  height: 48px;
+  width: auto;
 }
 
 .logo span {

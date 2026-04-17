@@ -24,16 +24,17 @@ const translations = {
       badge1: "Heldere planning",
       badge2: "Nette oplevering",
       badge3: "Premium afwerking",
-      metric1: "Afgeronde renovaties",
-      metric2: "Jaar praktijkervaring",
+      metric1: "Geregistreerd",
+      metric2: "en omgeving",
       imageAlt: "Modern gerenoveerd interieur"
     },
     trust: {
-      rating: "Klanttevredenheid",
+      planningValue: "Helder",
+      planning: "Duidelijke planning",
       quote: "Reactie op offerteaanvragen",
       finish: "Focus op nette afwerking",
-      areas: "Werkzaam in meerdere regio's",
-      areasValue: "NL"
+      areas: "en omliggende regio's",
+      areasValue: "Tilburg"
     },
     about: {
       tag: "Over Nexvora",
@@ -41,7 +42,7 @@ const translations = {
       text1: "Nexvora Renovatie is gespecialiseerd in moderne renovaties voor woningen, appartementen en functionele leefruimtes in Nederland.",
       text2: "Wij combineren technische precisie, doordachte materiaalkeuzes en een verzorgde uitvoering voor resultaten die stijlvol ogen en duurzaam blijven.",
       imageAlt: "Stijlvolle interieurdetails na renovatie",
-      fact1: "Jaar ervaring",
+      fact1: "Geregistreerd",
       fact2: "Partner voor het hele traject",
       fact3: "Kernservices geïntegreerd",
       feature1Title: "Duidelijke communicatie",
@@ -87,7 +88,7 @@ const translations = {
     process: {
       tag: "Onze werkwijze",
       title: "Een duidelijk traject van eerste contact tot nette oplevering",
-      intro: "Deze sectie is toegevoegd om het vertrouwen te versterken: klanten willen snel begrijpen hoe een renovatieproces bij u verloopt.",
+      intro: "Een duidelijk proces van eerste contact tot nette oplevering, zodat u precies weet wat u kunt verwachten.",
       step1Title: "Aanvraag en advies",
       step1Text: "We bespreken de ruimte, wensen, stijl en een realistische budgetinschatting.",
       step2Title: "Duidelijke offerte",
@@ -99,8 +100,8 @@ const translations = {
     },
     projects: {
       tag: "Projecten",
-      title: "Portfolio met echte beelden en een overtuigendere uitstraling",
-      intro: "De abstracte visuals zijn vervangen door echte online beelden zodat de website direct geloofwaardiger en professioneler overkomt.",
+      title: "Inspiratie uit moderne renovatieprojecten",
+      intro: "Voorbeelden van afwerkingen en stijlen die we voor u kunnen realiseren.",
       items: {
         p1: {
           label: "Badkamer",
@@ -142,8 +143,8 @@ const translations = {
     },
     benefits: {
       tag: "Waarom wij",
-      title: "Vertrouwenselementen die een echte klant verwacht",
-      intro: "Deze zone helpt sterk bij conversie: bezoekers zien in een paar seconden waarom ze juist met Nexvora Renovatie moeten spreken.",
+      title: "Waarom klanten kiezen voor Nexvora Renovatie",
+      intro: "Transparantie, zorg voor de woning en aandacht voor detail bij elk project.",
       item1Title: "Heldere ramingen",
       item1Text: "Geen vage inschattingen. De offerte maakt snel duidelijk wat wel en niet inbegrepen is.",
       item2Title: "Respect voor de woning",
@@ -155,27 +156,27 @@ const translations = {
     },
     reviews: {
       tag: "Klantervaringen",
-      title: "Reviews met meer context en geloofwaardigheid",
-      intro: "De testimonials zijn sterker gemaakt met projecttype en locatie, zodat ze realistischer aanvoelen voor nieuwe bezoekers.",
+      title: "Wat onze klanten zeggen",
+      intro: "Eerlijke reacties van klanten die hun renovatie aan ons hebben toevertrouwd.",
       items: {
         r1: {
           quote: "“Professioneel, punctueel en zeer netjes gewerkt. Onze badkamer ziet er modern uit en alles werd helder gecommuniceerd.”",
-          role: "Badkamer renovatie · Utrecht"
+          role: "Badkamer renovatie · Tilburg"
         },
         r2: {
           quote: "“Sterke afwerking en een prettige samenwerking. Het team werkte schoon en hield zich goed aan de planning.”",
-          role: "Keuken en vloerwerk · Amsterdam"
+          role: "Keuken en vloerwerk · Tilburg"
         },
         r3: {
           quote: "“Van het eerste contact tot de oplevering voelde alles professioneel. Het resultaat is exact zoals we hoopten.”",
-          role: "Totaalrenovatie · Rotterdam"
+          role: "Totaalrenovatie · Breda"
         }
       }
     },
     faq: {
       tag: "FAQ",
       title: "Veelgestelde vragen vóór een offerteaanvraag",
-      intro: "Deze sectie helpt bij vertrouwen, conversie en zichtbaarheid: veel bezoekers zoeken eerst duidelijkheid voordat ze contact opnemen.",
+      intro: "Antwoorden op de meest gestelde vragen voordat u een offerte aanvraagt.",
       q1: "Hoe lang duurt een complete renovatie?",
       a1: "Dat hangt af van de omvang, complexiteit en materiaalkeuzes, maar de planning wordt vooraf zo duidelijk mogelijk besproken.",
       q2: "Kan ik ook alleen een badkamer of keuken laten renoveren?",
@@ -183,7 +184,7 @@ const translations = {
       q3: "Werken jullie ook met materialen die de klant zelf kiest?",
       a3: "Ja. We kunnen werken met klantvoorkeuren of passende oplossingen aanbevelen op basis van stijl en gebruik.",
       q4: "In welke regio's zijn jullie actief?",
-      a4: "Voornamelijk in Amsterdam, Utrecht, Rotterdam en omliggende gebieden, afhankelijk van het project."
+      a4: "Voornamelijk in Tilburg en omliggende regio's. Neem contact op voor beschikbaarheid in andere gebieden."
     },
     contact: {
       tag: "Contact",
@@ -192,7 +193,7 @@ const translations = {
       phoneLabel: "Telefoon",
       emailLabel: "E-mail",
       areaLabel: "Werkgebied",
-      areaValue: "Amsterdam, Utrecht, Rotterdam en omgeving",
+      areaValue: "Tilburg en omliggende regio's",
       hoursLabel: "Beschikbaarheid",
       hoursValue: "Ma - Za | 08:00 - 18:00",
       form: {
@@ -254,16 +255,17 @@ const translations = {
       badge1: "Clear planning",
       badge2: "Neat delivery",
       badge3: "Premium finish",
-      metric1: "Completed renovations",
-      metric2: "Years of hands-on experience",
+      metric1: "Registered",
+      metric2: "and surroundings",
       imageAlt: "Modern renovated interior"
     },
     trust: {
-      rating: "Client satisfaction",
+      planningValue: "Clear",
+      planning: "Clear planning",
       quote: "Response on quote requests",
       finish: "Focus on clean finishing",
-      areas: "Active across multiple regions",
-      areasValue: "NL"
+      areas: "and surrounding regions",
+      areasValue: "Tilburg"
     },
     about: {
       tag: "About Nexvora",
@@ -271,7 +273,7 @@ const translations = {
       text1: "Nexvora Renovatie specializes in modern renovations for houses, apartments and functional living spaces across the Netherlands.",
       text2: "We combine technical precision, thoughtful material choices and polished execution for results that look refined and stay durable over time.",
       imageAlt: "Stylish interior detail after renovation",
-      fact1: "Years of experience",
+      fact1: "Registered",
       fact2: "Partner for the full project",
       fact3: "Core services integrated",
       feature1Title: "Clear communication",
@@ -317,7 +319,7 @@ const translations = {
     process: {
       tag: "Our process",
       title: "A clear workflow from first contact to final handover",
-      intro: "This section was added to build trust fast: most clients want to understand the renovation flow before they reach out.",
+      intro: "A clear process from first contact to final delivery, so you know exactly what to expect.",
       step1Title: "Request and consultation",
       step1Text: "We discuss the space, your goals, design direction and a realistic budget estimate.",
       step2Title: "Clear quotation",
@@ -329,8 +331,8 @@ const translations = {
     },
     projects: {
       tag: "Projects",
-      title: "Portfolio upgraded with real imagery and a stronger premium feel",
-      intro: "The abstract visuals were replaced with real online images so the website feels more trustworthy and closer to a real renovation company.",
+      title: "Inspiration from modern renovation projects",
+      intro: "Examples of finishes and styles we can create for your home.",
       items: {
         p1: {
           label: "Bathroom",
@@ -372,8 +374,8 @@ const translations = {
     },
     benefits: {
       tag: "Why us",
-      title: "Trust signals that real customers expect to see",
-      intro: "This block was added to improve conversion: it helps visitors understand in seconds why Nexvora Renovatie is worth contacting.",
+      title: "Why clients choose Nexvora Renovatie",
+      intro: "Transparency, care for your home and attention to detail on every project.",
       item1Title: "Transparent estimates",
       item1Text: "No vague promises. The quote quickly shows what is included and what is not.",
       item2Title: "Respect for the home",
@@ -385,27 +387,27 @@ const translations = {
     },
     reviews: {
       tag: "Client reviews",
-      title: "Reviews presented with more context and credibility",
-      intro: "The testimonials were strengthened with project type and city so they feel more authentic to new visitors.",
+      title: "What our clients say",
+      intro: "Honest reactions from clients who trusted us with their renovation.",
       items: {
         r1: {
           quote: "“Professional, punctual and very tidy work. Our bathroom looks modern and everything was communicated clearly throughout the project.”",
-          role: "Bathroom renovation · Utrecht"
+          role: "Bathroom renovation · Tilburg"
         },
         r2: {
           quote: "“Strong finishing quality and a smooth collaboration. The team worked cleanly and respected the agreed timeline.”",
-          role: "Kitchen and flooring works · Amsterdam"
+          role: "Kitchen and flooring works · Tilburg"
         },
         r3: {
           quote: "“From the first contact to the final handover, everything felt professional. The result is exactly what we hoped for.”",
-          role: "Full renovation · Rotterdam"
+          role: "Full renovation · Breda"
         }
       }
     },
     faq: {
       tag: "FAQ",
       title: "Common questions clients ask before requesting a quote",
-      intro: "This section helps with trust, conversion and visibility: many visitors want clarity before they get in touch.",
+      intro: "Answers to the most common questions before requesting a quote.",
       q1: "How long does a full renovation take?",
       a1: "That depends on the size, complexity and material choices, but the expected planning is discussed as clearly as possible before the project starts.",
       q2: "Can I request only a bathroom or kitchen renovation?",
@@ -413,7 +415,7 @@ const translations = {
       q3: "Do you also work with materials chosen by the client?",
       a3: "Yes. We can work with client-selected materials or recommend suitable solutions based on style and use.",
       q4: "Which regions do you serve?",
-      a4: "Mainly Amsterdam, Utrecht, Rotterdam and nearby areas, depending on the project."
+      a4: "Mainly Tilburg and surrounding areas. Contact us for availability in other regions."
     },
     contact: {
       tag: "Contact",
@@ -422,7 +424,7 @@ const translations = {
       phoneLabel: "Phone",
       emailLabel: "Email",
       areaLabel: "Service area",
-      areaValue: "Amsterdam, Utrecht, Rotterdam and surrounding areas",
+      areaValue: "Tilburg and surrounding areas",
       hoursLabel: "Availability",
       hoursValue: "Mon - Sat | 08:00 - 18:00",
       form: {
